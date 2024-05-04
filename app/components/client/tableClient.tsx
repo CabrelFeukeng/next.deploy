@@ -1,5 +1,6 @@
 import React from 'react';
 import data from './data';
+import Image from 'next/image';
 
 
 
@@ -35,9 +36,8 @@ const Tableau: React.FC<TableauProps> = ({ data }) => {
         {data.map((row, index) => (
           <tr key={index} className={index % 2 === 0 ? 'bg-gray-100' : 'bg-white'}>
             <td className="flex justify-center items-center border p-2 space-x-4 ">
-              <img className="w-12 h-12 rounded-full" src="/img/image1.png" alt={row.nom} />
+              <Image className="w-12 h-12 rounded-full" src="/img/image1.png" alt={row.nom} />
               <div className="flex flex-col">
-                <div className="text-black text-xl font-semibold">{row.nom}</div>
                 <div className="text-customBlue font-semibold">{row.e_mail}</div>
                 <div className="text-sm text-blue-500 font-bold">{row.numero}</div>
               </div>

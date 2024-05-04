@@ -57,7 +57,7 @@ const Table1: React.FC<TableauProps> = ({handleCancelClick1, handleEditClick,set
       {!isEditing && formVisible && (
               <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 fixed bottom-300 top-70 p-10 left-0 right-0 flex items-center justify-center">
                 <div className="rounded-xl p-8 max-w-md shadow-lg bg-white border-blue-500 border">
-                <p className='text-center font-bold text-black'>* AJOUT D'UNE DISPONIBILITE *</p>
+                <p className="text-center font-bold text-black">* AJOUT D'UNE DISPONIBILITE *</p>
                   <form onSubmit={handleFormSubmit}>
                     <div className="overflow-auto h-64 mt-5">
                     <div className="grid grid-cols-2 gap-4 ">
@@ -173,7 +173,7 @@ const Table1: React.FC<TableauProps> = ({handleCancelClick1, handleEditClick,set
               <div className=" fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 fixed bottom-300 top-70 p-10 left-0 right-0 flex items-center justify-center bg-opacity-50">
                 
                 <div className="p-8 rounded-xl shadow-lg bg-white border-blue-500 border">
-                  <h1 className='text-center font-bold text-black'>* MODIFICATION D'UNE DISPONIBILITE *</h1> 
+                  <h1 className="text-center font-bold text-black">* MODIFICATION D'UNE DISPONIBILITE *</h1> 
                   <form onSubmit={handleFormSubmit1}>
                     <div className="overflow-y-auto mt-5">
                     <div className="grid grid-cols-2 gap-4 ">

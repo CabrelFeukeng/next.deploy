@@ -78,7 +78,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
       {!isEditing && formVisible && (
               <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 fixed bottom-300 top-70 p-10 left-0 right-0 flex items-center justify-center">
                 <div className="w-auto overflow-x-auto max-w-screen overflow-auto max-h-screen rounded-xl p-8 max-w-md shadow-lg bg-white border-blue-500 border">
-                <p className='text-center font-bold text-black'>* AJOUT D'UN VOYAGE *</p>
+                <p className="text-center font-bold text-black">* AJOUT D'UN VOYAGE *</p>
                   <form onSubmit={handleFormSubmit}>
                     <div className="mt-5">
                     <div className="grid grid-cols-2 gap-4 ">
@@ -104,9 +104,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">
-                          lieu d'arrivée
-                        </label>
+                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">lieu d'arrivée</label>
 
                         <input
                          className={`bg-white shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 placeholder-gray-400 leading-tight focus:outline-none focus:shadow-outline 
@@ -332,7 +330,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
                 
                 <div className="w-auto overflow-x-auto max-w-screen overflow-auto max-h-screen rounded-xl p-8 max-w-md shadow-lg bg-white border-blue-500 border">
 
-                  <h1 className='text-center font-bold text-black'>* MODIFICATION D'UNE VOYAGE *</h1> 
+                  <h1 className="text-center font-bold text-black">* MODIFICATION D'UNE VOYAGE *</h1> 
                   <form onSubmit={handleFormSubmit1}>
                     <div className="overflow-y-auto mt-5">
                     <div className="grid grid-cols-2 gap-4 ">
@@ -363,9 +361,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">
-                          lieu d'arrivée
-                        </label>
+                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">lieu d'arrivée</label>
 
                         <input
                          className={`bg-white shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 placeholder-gray-400 leading-tight focus:outline-none focus:shadow-outline 
