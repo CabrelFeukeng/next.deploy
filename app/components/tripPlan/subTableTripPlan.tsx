@@ -104,7 +104,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">lieu d'arrivée</label>
+                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">lieu arrivée</label>
 
                         <input
                          className={`bg-white shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 placeholder-gray-400 leading-tight focus:outline-none focus:shadow-outline 
@@ -361,7 +361,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">lieu d'arrivée</label>
+                        <label className="block text-customBlue text-sm font-bold mb-2" htmlFor="lieu_ariivee">lieu arrivée</label>
 
                         <input
                          className={`bg-white shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 placeholder-gray-400 leading-tight focus:outline-none focus:shadow-outline 
@@ -615,7 +615,7 @@ const Table1: React.FC<TableauProps> = ({handleShowAskType, showAskType, handleC
                 <td className="border p-2 text-center">
                   <div className="flex flex-col">
                       <div className="text-customBlue font-semibold">lieu de depart: {row.lieu_depart}</div>
-                      <div className="text-blue-500 font-semibold">lieu d'arrivée : {row.lieu_ariivee}</div>
+                      <div className="text-blue-500 font-semibold">lieu arrivée : {row.lieu_ariivee}</div>
                   </div>
                 </td>
 
